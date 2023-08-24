@@ -5,9 +5,9 @@
  * list_len:returns no of elem in linked list
  * returns no of elem in h
  */
-size_z list_len(const list_z *h)
+size_t list_len(const list_z *h)
 {
-	size_z n = 0;
+	size_t n = 0;
 
 	while (h)
 	{

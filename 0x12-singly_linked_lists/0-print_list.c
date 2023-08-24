@@ -5,9 +5,9 @@
  * print-list:It prints elements of linked-list
  * It returns the no of node printed
  */
-size_z print_list(const list_z *h)
+size_t print_list(const list_z *h)
 {
-	size_z s = 0;
+	size_t s = 0;
 
 	while (h)
 	{
